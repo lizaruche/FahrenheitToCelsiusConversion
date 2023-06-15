@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FToCClient", "FToCClient\FToCClient.csproj", "{B4EF5A65-85E5-4BBF-B653-3AB1872BD6FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6A3DF049-1140-4D53-A0FD-812C66166E3F} = {6A3DF049-1140-4D53-A0FD-812C66166E3F}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FTOCService", "FTOCService\", "{6A3DF049-1140-4D53-A0FD-812C66166E3F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59189"
+		Debug.AspNetCompiler.PhysicalPath = "FTOCService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59189\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59189"
+		Release.AspNetCompiler.PhysicalPath = "FTOCService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59189\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59189"
+		SlnRelativePath = "FTOCService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4EF5A65-85E5-4BBF-B653-3AB1872BD6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EF5A65-85E5-4BBF-B653-3AB1872BD6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EF5A65-85E5-4BBF-B653-3AB1872BD6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EF5A65-85E5-4BBF-B653-3AB1872BD6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3DF049-1140-4D53-A0FD-812C66166E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3DF049-1140-4D53-A0FD-812C66166E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3DF049-1140-4D53-A0FD-812C66166E3F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3DF049-1140-4D53-A0FD-812C66166E3F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7940B9C7-8660-41C0-91B5-EFFAC04DB2DD}
+	EndGlobalSection
+EndGlobal
